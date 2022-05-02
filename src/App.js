@@ -1,14 +1,34 @@
-import React from "react";
-import './App.css';
 
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div clssName="container">
+      <div className="container">
+        <Weather defaultCity="Long Beach" />
 
-        <footer>This project is created by Viktoriia K
-         <a href="#" >Link</a>
+        <footer>
+          This project was coded by{" "}
+          Viktoriia K
+         {" "}
+          and is{" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
