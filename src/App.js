@@ -15,20 +15,13 @@ export default function App() {
          {" "}
           and is{" "}
           <a
-            href="#"
+            href="https://github.com/Victoria123654/react-weather-app.git"
             target="_blank"
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
-          and{" "}
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            hosted on Netlify
-          </a>
+
         </footer>
       </div>
     </div>
